@@ -669,6 +669,16 @@
       .gallery-feature .feature-heading { font-size: 1.2rem; }
     }
 
+    /* ─── PHOTOS ─── */
+    .photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
     /* ─── SUBTLE ENTRANCE ─── */
     .fade-in {
       opacity: 0; transform: translateY(24px);
@@ -713,10 +723,7 @@
         </div>
       </div>
       <div class="hero-image fade-in delay-2">
-        <div class="hero-image-placeholder">
-          <span class="icon">✂️</span>
-          <span>Your photo here</span>
-        </div>
+        <img src="images/hero.jpg" alt="N.A.S Hair Studio" class="photo">
         <div class="hero-image-tag">Est. N.A.S Hair Studio</div>
       </div>
     </div>
@@ -727,7 +734,7 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-image fade-in">
-          <span class="icon">📷</span>
+          <img src="images/about.jpg" alt="N.A.S Hair Studio" class="photo">
           <div class="about-image-accent"></div>
         </div>
         <div class="about-text fade-in delay-1">
@@ -809,11 +816,11 @@
       <div class="gallery-grid fade-in delay-1">
         <!-- Row 1 -->
         <div class="gallery-cell">
-          <span class="icon">🎨</span>
+          <img src="images/gallery-1.jpg" alt="Balayage" class="photo">
           <div class="gallery-overlay"><span class="gallery-tag">Balayage</span></div>
         </div>
         <div class="gallery-cell">
-          <span class="icon">✂️</span>
+          <img src="images/gallery-2.jpg" alt="Precision Cut" class="photo">
           <div class="gallery-overlay"><span class="gallery-tag">Precision Cut</span></div>
         </div>
         <div class="gallery-feature dark tall">
@@ -824,7 +831,7 @@
         </div>
         <!-- Row 2 -->
         <div class="gallery-cell">
-          <span class="icon">💇‍♀️</span>
+          <img src="images/gallery-3.jpg" alt="Colour & Style" class="photo">
           <div class="gallery-overlay"><span class="gallery-tag">Colour & Style</span></div>
         </div>
         <div class="gallery-feature gold-bg">
